@@ -1,0 +1,342 @@
+.islamic-page {
+  background: #f8fff9;
+  color: #1f2937;
+}
+
+/* ================= HERO ================= */
+
+.islamic-hero {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #e9fff1, #ffffff);
+}
+
+.islamic-badge {
+  display: inline-block;
+  padding: 8px 18px;
+  margin-bottom: 18px;
+  border-radius: 30px;
+  background: #d9f7e3;
+  color: #198754;
+  font-weight: 600;
+}
+
+.islamic-hero h1 {
+  font-size: 52px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.islamic-hero h1 span {
+  color: #198754;
+}
+
+.islamic-hero p {
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #666;
+}
+
+.islamic-buttons {
+  margin-top: 30px;
+}
+
+/* ================= HERO BOX ================= */
+
+.islamic-hero-box {
+  padding: 55px 30px;
+  border-radius: 25px;
+  background: linear-gradient(145deg, #198754, #0f5132);
+  color: white;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.islamic-icon {
+  font-size: 85px;
+  margin-bottom: 15px;
+}
+
+.islamic-hero-box h2 {
+  font-size: 38px;
+  direction: rtl;
+}
+
+.islamic-hero-box p {
+  color: white;
+  margin: 10px 0;
+}
+
+.islamic-arabic {
+  margin-top: 25px;
+  font-size: 25px;
+  direction: rtl;
+}
+
+/* ================= SECTION TITLE ================= */
+
+.islamic-section-title span {
+  color: #198754;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.islamic-section-title h2 {
+  font-size: 38px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.islamic-section-title p {
+  max-width: 750px;
+  margin: auto;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* ================= INTRO CARDS ================= */
+
+.islamic-card {
+  height: 100%;
+  padding: 35px 25px;
+  text-align: center;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+  transition: 0.3s;
+}
+
+.islamic-card:hover {
+  transform: translateY(-8px);
+}
+
+.islamic-card-icon {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.islamic-card h4 {
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.islamic-card p {
+  color: #777;
+  line-height: 1.7;
+}
+
+/* ================= LEARNING ================= */
+
+.islamic-learning {
+  background: #f1fff5;
+}
+
+.islamic-small-title {
+  color: #198754;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.islamic-learning h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 12px 0;
+}
+
+.islamic-learning p {
+  color: #666;
+  line-height: 1.8;
+}
+
+.islamic-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+.islamic-list li {
+  padding: 8px 0;
+  font-weight: 500;
+}
+
+/* ================= LEARNING BOX ================= */
+
+.islamic-learning-box {
+  padding: 45px 30px;
+  background: white;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.learning-icon {
+  font-size: 65px;
+}
+
+.islamic-learning-box h3 {
+  margin-top: 15px;
+  font-size: 32px;
+  color: #198754;
+  direction: rtl;
+}
+
+.islamic-learning-box p {
+  color: #666;
+}
+
+.knowledge-box {
+  margin-top: 25px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #e9fff1;
+  color: #198754;
+}
+
+/* ================= TOPICS ================= */
+
+.islamic-topics {
+  background: white;
+}
+
+.topic-box {
+  height: 100%;
+  padding: 30px 25px;
+  border-radius: 18px;
+  background: #f8fff9;
+  border: 1px solid #e0f2e7;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.topic-box:hover {
+  transform: translateY(-7px);
+  border-color: #198754;
+}
+
+.topic-icon {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.topic-box h4 {
+  font-weight: 700;
+}
+
+.topic-box p {
+  color: #777;
+  line-height: 1.7;
+}
+
+/* ================= STUDENTS ================= */
+
+.islamic-students {
+  background: #f1fff5;
+}
+
+.student-box {
+  height: 100%;
+  padding: 35px 25px;
+  background: white;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+  transition: 0.3s;
+}
+
+.student-box:hover {
+  transform: translateY(-7px);
+}
+
+.student-icon {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.student-box h4 {
+  font-weight: 700;
+}
+
+.student-box p {
+  color: #777;
+  line-height: 1.7;
+}
+
+/* ================= FEATURES ================= */
+
+.islamic-features {
+  background: white;
+}
+
+.islamic-feature-box {
+  height: 100%;
+  padding: 30px 20px;
+  border-radius: 18px;
+  background: #f8fff9;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.islamic-feature-box:hover {
+  transform: translateY(-7px);
+}
+
+.islamic-feature-box span {
+  font-size: 40px;
+}
+
+.islamic-feature-box h5 {
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+.islamic-feature-box p {
+  color: #777;
+}
+
+/* ================= CTA ================= */
+
+.islamic-cta {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #198754, #0f5132);
+  color: white;
+}
+
+.islamic-cta h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.islamic-cta p {
+  max-width: 700px;
+  margin: 15px auto 30px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+  .islamic-hero {
+    padding: 60px 20px;
+  }
+
+  .islamic-hero h1 {
+    font-size: 38px;
+  }
+
+  .islamic-hero-box {
+    margin-top: 40px;
+  }
+
+  .islamic-section-title h2 {
+    font-size: 30px;
+  }
+
+  .islamic-learning h2 {
+    font-size: 30px;
+  }
+
+  .islamic-cta h2 {
+    font-size: 30px;
+  }
+}

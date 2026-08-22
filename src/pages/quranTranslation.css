@@ -1,0 +1,316 @@
+.translation-page {
+  background: #f8fff9;
+  color: #1f2937;
+}
+
+/* ================= HERO ================= */
+
+.translation-hero {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #e9fff1, #ffffff);
+}
+
+.translation-badge {
+  display: inline-block;
+  padding: 8px 18px;
+  margin-bottom: 18px;
+  border-radius: 30px;
+  background: #d9f7e3;
+  color: #198754;
+  font-weight: 600;
+}
+
+.translation-hero h1 {
+  font-size: 52px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.translation-hero h1 span {
+  color: #198754;
+}
+
+.translation-hero p {
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #666;
+}
+
+.translation-buttons {
+  margin-top: 30px;
+}
+
+/* ================= QURAN BOX ================= */
+
+.translation-quran-box {
+  padding: 55px 30px;
+  border-radius: 25px;
+  background: linear-gradient(145deg, #198754, #0f5132);
+  color: white;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.translation-icon {
+  font-size: 85px;
+  margin-bottom: 15px;
+}
+
+.translation-quran-box h2 {
+  font-size: 38px;
+  direction: rtl;
+}
+
+.translation-quran-box p {
+  color: white;
+  margin: 10px 0;
+}
+
+.translation-arabic {
+  margin-top: 25px;
+  font-size: 25px;
+  direction: rtl;
+}
+
+/* ================= SECTION TITLE ================= */
+
+.translation-section-title span {
+  color: #198754;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.translation-section-title h2 {
+  font-size: 38px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.translation-section-title p {
+  max-width: 750px;
+  margin: auto;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* ================= CARDS ================= */
+
+.translation-card {
+  height: 100%;
+  padding: 35px 25px;
+  text-align: center;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+  transition: 0.3s;
+}
+
+.translation-card:hover {
+  transform: translateY(-8px);
+}
+
+.translation-card-icon {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.translation-card h4 {
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.translation-card p {
+  color: #777;
+  line-height: 1.7;
+}
+
+/* ================= LEARNING ================= */
+
+.translation-learning {
+  background: #f1fff5;
+}
+
+.translation-small-title {
+  color: #198754;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.translation-learning h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 12px 0;
+}
+
+.translation-learning p {
+  color: #666;
+  line-height: 1.8;
+}
+
+.translation-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+.translation-list li {
+  padding: 9px 0;
+  font-weight: 500;
+}
+
+/* ================= ARABIC BOX ================= */
+
+.translation-arabic-box {
+  padding: 45px 30px;
+  background: white;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.big-quran-icon {
+  font-size: 65px;
+}
+
+.translation-arabic-box h3 {
+  margin-top: 15px;
+  font-size: 30px;
+  color: #198754;
+  direction: rtl;
+}
+
+.translation-arabic-box p {
+  color: #666;
+}
+
+.meaning-box {
+  margin-top: 25px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #e9fff1;
+  color: #198754;
+}
+
+/* ================= LEVELS ================= */
+
+.translation-levels {
+  background: white;
+}
+
+.level-box {
+  height: 100%;
+  padding: 30px 25px;
+  text-align: center;
+  border-radius: 18px;
+  background: #f8fff9;
+  border: 1px solid #e0f2e7;
+  transition: 0.3s;
+}
+
+.level-box:hover {
+  transform: translateY(-7px);
+  border-color: #198754;
+}
+
+.level-number {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #198754;
+  color: white;
+  font-weight: 700;
+}
+
+.level-box h4 {
+  font-weight: 700;
+}
+
+.level-box p {
+  color: #777;
+  line-height: 1.7;
+}
+
+/* ================= FEATURES ================= */
+
+.translation-features {
+  background: #f1fff5;
+}
+
+.translation-feature-box {
+  height: 100%;
+  padding: 30px 20px;
+  border-radius: 18px;
+  text-align: center;
+  background: white;
+  transition: 0.3s;
+}
+
+.translation-feature-box:hover {
+  transform: translateY(-7px);
+}
+
+.translation-feature-box span {
+  font-size: 40px;
+}
+
+.translation-feature-box h5 {
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+.translation-feature-box p {
+  color: #777;
+}
+
+/* ================= CTA ================= */
+
+.translation-cta {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #198754, #0f5132);
+  color: white;
+}
+
+.translation-cta h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.translation-cta p {
+  max-width: 700px;
+  margin: 15px auto 30px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+  .translation-hero {
+    padding: 60px 20px;
+  }
+
+  .translation-hero h1 {
+    font-size: 38px;
+  }
+
+  .translation-quran-box {
+    margin-top: 40px;
+  }
+
+  .translation-section-title h2 {
+    font-size: 30px;
+  }
+
+  .translation-learning h2 {
+    font-size: 30px;
+  }
+
+  .translation-cta h2 {
+    font-size: 30px;
+  }
+}

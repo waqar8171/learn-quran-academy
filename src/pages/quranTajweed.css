@@ -1,0 +1,248 @@
+.tajweed-page {
+  background: #f8fff9;
+  color: #1f2937;
+}
+
+/* HERO */
+
+.tajweed-hero {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #e9fff1, #ffffff);
+}
+
+.tajweed-badge {
+  display: inline-block;
+  padding: 8px 18px;
+  margin-bottom: 18px;
+  border-radius: 30px;
+  background: #d9f7e3;
+  color: #198754;
+  font-weight: 600;
+}
+
+.tajweed-hero h1 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.tajweed-hero h1 span {
+  color: #198754;
+}
+
+.tajweed-hero p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #666;
+  max-width: 600px;
+}
+
+.tajweed-buttons {
+  margin-top: 30px;
+}
+
+/* QURAN BOX */
+
+.tajweed-quran-box {
+  padding: 60px 30px;
+  border-radius: 25px;
+  background: #198754;
+  color: white;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.quran-icon {
+  font-size: 90px;
+  margin-bottom: 20px;
+}
+
+.tajweed-quran-box h3 {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+.tajweed-quran-box p {
+  color: white;
+  margin: auto;
+}
+
+/* SECTION TITLE */
+
+.section-title span {
+  color: #198754;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.section-title h2 {
+  font-size: 38px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.section-title p {
+  color: #777;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* CARDS */
+
+.tajweed-card {
+  height: 100%;
+  padding: 35px 25px;
+  background: white;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+  transition: 0.3s;
+}
+
+.tajweed-card:hover {
+  transform: translateY(-8px);
+}
+
+.card-icon {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.tajweed-card h4 {
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.tajweed-card p {
+  color: #777;
+  line-height: 1.7;
+}
+
+/* WHAT YOU LEARN */
+
+.what-learn {
+  background: white;
+}
+
+.what-learn h2 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.lead {
+  color: #666;
+}
+
+.tajweed-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+.tajweed-list li {
+  padding: 10px 0;
+  color: #444;
+}
+
+/* ARABIC BOX */
+
+.tajweed-learning-box {
+  padding: 45px 30px;
+  background: #198754;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.tajweed-learning-box h3 {
+  font-size: 38px;
+}
+
+.tajweed-learning-box p {
+  color: white;
+}
+
+.arabic-letters {
+  font-size: 27px;
+  direction: rtl;
+  margin: 18px 0;
+  letter-spacing: 8px;
+}
+
+/* FEATURES */
+
+.course-features {
+  background: #f1fff5;
+}
+
+.feature-box {
+  height: 100%;
+  padding: 30px 20px;
+  background: white;
+  border-radius: 18px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.feature-box:hover {
+  transform: translateY(-7px);
+}
+
+.feature-box span {
+  font-size: 40px;
+}
+
+.feature-box h5 {
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+.feature-box p {
+  color: #777;
+}
+
+/* CTA */
+
+.tajweed-cta {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #198754, #0f5132);
+  color: white;
+}
+
+.tajweed-cta h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.tajweed-cta p {
+  font-size: 18px;
+  margin: 15px auto 30px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .tajweed-hero {
+    padding: 60px 20px;
+  }
+
+  .tajweed-hero h1 {
+    font-size: 38px;
+  }
+
+  .tajweed-quran-box {
+    margin-top: 40px;
+  }
+
+  .section-title h2 {
+    font-size: 30px;
+  }
+
+  .what-learn h2 {
+    font-size: 30px;
+  }
+
+  .tajweed-cta h2 {
+    font-size: 30px;
+  }
+}
